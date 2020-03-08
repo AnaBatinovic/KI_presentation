@@ -7,47 +7,183 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {2}{2}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {1}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {1}{Introduction}{3}{Introduction}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {3}{3}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {0}{0}{4}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {4}{4}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {0}{0}{5}{5/5}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{5/5}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {5}{5}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {0}{0}{6}{6/6}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{6/6}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {6}{6}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {0}{0}{7}{7/7}{}{0}}
+\headcommand {\slideentry {1}{0}{5}{7/7}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {7}{7}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {1}{7}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {1}{7}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {1}{Literatura}{8}{Literatura}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {8}{7}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {8}{7}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {2}{Works Cited}{8}{Works Cited}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{0}{8/8}{}{0}}
+\headcommand {\slideentry {1}{0}{6}{8/8}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {8}{8}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{0}{8/9}{}{0}}
+\headcommand {\slideentry {1}{0}{7}{9/9}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {8}{9}}
-\headcommand {\beamer@partpages {1}{9}}
-\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\beamer@sectionpages {8}{9}}
-\headcommand {\beamer@documentpages {9}}
-\headcommand {\gdef \inserttotalframenumber {8}}
+\headcommand {\beamer@framepages {9}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {3}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {3}{9}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{2D coordination algorithms}{10}{2D coordination algorithms}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{1}{10/10}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {10}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {10}{10}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{Nearest frontier approach}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{1}{11/11}{Nearest frontier approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {11}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {11}{11}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{2}{12}{Cost-utility approach}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{2}{1}{12/12}{Cost-utility approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {12}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {12}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{3}{13}{Market-based approach}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{3}{1}{13/13}{Market-based approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{4}{14}{Distributed approach}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{1}{14/14}{Distributed approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {14}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{2}{15/15}{Distributed approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {15}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{3}{16/16}{Distributed approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {16}{16}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{4}{17/17}{Distributed approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {17}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{4}{5}{18/18}{Distributed approach}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {18}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {10}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {14}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{3D coordination algorithms}{19}{3D coordination algorithms}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{1}{19/19}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {19}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{2}{20/20}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {19}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{21}{Extension of 2D exploration solutions to 3D solution}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{1}{21/21}{Extension of 2D exploration solutions to 3D solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{2}{22/22}{Extension of 2D exploration solutions to 3D solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{22}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{3}{23/23}{Extension of 2D exploration solutions to 3D solution}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {23}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {19}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {21}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{Conclusion}{24}{Conclusion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{24/24}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{25/25}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {25}{25}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{3}{26/26}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {26}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {24}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {24}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Literatura}{27}{Literatura}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {27}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {27}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {6}{Works Cited}{27}{Works Cited}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/27}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/28}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/29}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{29}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/30}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{30}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/31}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{27/32}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {27}{32}}
+\headcommand {\beamer@sectionpages {27}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {31}}
