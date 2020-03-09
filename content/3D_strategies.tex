@@ -9,7 +9,7 @@
 
 \subsection{Extension of 2D exploration solutions to 3D solution}
 \begin{frame}
-     \frametitle{Extension of 2D exploration solutions to 3D - single robot (1)}
+     \frametitle{Extension of 2D exploration solutions to 3D}
      \begin{itemize}
      	\item[-] Reducing the dimension of the navigation space of robots\footcite{Bachrach2009}$\,$\footcite{Surmann2003}
      	\begin{itemize}
@@ -33,8 +33,9 @@
      \end{itemize}   
 \end{frame}
 
+\subsection{3D exploration - single robot}
 \begin{frame}
-	\frametitle{Extension of 2D exploration solutions to 3D - single robot (2)}
+	\frametitle{3D exploration - single robot}
 	\begin{itemize}
 		\item[-] Formalized extension of the \textbf{frontier-based exploration}\footcite{ShadeNewman2011}
 		\item[-] Next-best-view approach for 3D exploration\footcite{Bircher2016}
@@ -50,7 +51,7 @@
 		\item[-] 3D exploration based on surface frontier voxels \footcite{Senarathne2016} 
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.4\textwidth]{figures/senarathne}
+			\includegraphics[width=0.5\textwidth]{figures/senarathne}
 		\end{figure}
 		
 %presented an alternative approach to 3D exploration based on surface frontier voxels. The strategy focuses on seeking the expansion of mapped surfaces, instead of reducing unmapped voxels.
@@ -68,9 +69,35 @@
 %			\item[-] The application in uncluttered environments results in few uninformative frontiers
 %		\end{itemize}
 %\end{frame}
-
+\subsection{3D exploration - multi-robot}
 \begin{frame}
-	\frametitle{3D frontier exploration}
+	\frametitle{3D exploration - multi-robot}
+	\begin{itemize}
+		\item[-] An entropy-based measure of information utility\footcite{Rocha2005}
+		% to define a cooperation strategy for sharing useful information
+		\item[-] Minimization of accumulative data errors during the exploration\footcite{Vutetakis2019}
+		\item[-] An information potential field based method\footcite{Wang2019} 
+		\begin{itemize}
+			\item[-] Reduce path cost and map entropy (an uncertainty of the map)
+		\end{itemize} 
+		\begin{figure}
+			\centering
+			\includegraphics[height=2cm]{figures/frontier_extraction}
+		\end{figure}
+%Vutetakis in \cite{Vutetakis2019} proposed a novel strategy for inspecting critical infrastructure autonomously using Micro Aerial Vehicles (MAVs). In order to facilitate autonomous inspection capabilities, this strategy addresses the problem of autonomous MAVs exploration and coverage of an unknown structure to acquire the spatial information necessary for the development of a high-fidelity 3D model of the structure. Key to this problem is to not only cover the entire structure, but also to minimize accumulative data errors during the exploration through direct planning of loop closures. 
+
+%Rocha et al. \cite{Rocha2005} dealt with 3D mapping by multiple robots using cubic cells for information storage. Authors presented a technique which is used for frontier-based exploration. At the beginning of the exploration an initial map is given to the robot, the robots update old map by new set of information obtained through sensing and share their useful information with other robots. The process is repeated until the whole area is explored and mapped.
+
+%The 3D exploration problem using aerial vehicles within limited flight endurance was addressed by Wang et al. \cite{Wang2019}. Authors proposed an information potential field based method considering both the traveled cost and information-gain. The next-best-view point is chosen based on a multi-objective function which considers information of several candidate regions and the traveled path cost. The selected goal
+%attracts the robot while known obstacles form the repulsive
+%force repel the robot.
+				
+	\end{itemize}	
+\end{frame}
+
+\subsection{Firefighting mission}
+\begin{frame}
+	\frametitle{Firefighting mission - frontier exploration (1)}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}\centering
 			\begin{center}
@@ -84,11 +111,11 @@
 			%				\item High speed, high accuracy
 			%			\end{itemize}
 		\end{column}
-		\begin{column}{0.5\textwidth}\centering
-			\begin{center}
-				\includegraphics[height=3cm]{figures/octomap_and_drone}
-				\label{fig:forest_plc}
-			\end{center}
+		\begin{column}{0.4\textwidth}\centering
+		\begin{itemize}
+			\item[-] GPS building location
+			\item[-] Google Cartographer SLAM
+		\end{itemize}
 			%			\vspace{0.1cm}
 			%			\begin{itemize}
 			%				\item Joint torque-controlled
@@ -97,4 +124,34 @@
 			%			\end{itemize}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Firefighting mission - frontier exploration (2)}
+	\begin{figure}
+		\includegraphics[height=3cm]{figures/building}
+	\end{figure}
+	\begin{figure}
+	\includegraphics[height=3cm]{figures/rviz_gazebo}
+	\end{figure}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Firefighting mission - real life scenario}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}\centering
+			\begin{center}
+				\includegraphics[width=1\textwidth]{figures/mbzirc_1}
+				\label{fig:forest_uav}
+			\end{center}
+		\end{column}
+		\begin{column}{0.5\textwidth}\centering
+			\begin{center}
+				\includegraphics[width=1\textwidth]{figures/mbzirc_2}
+				\label{fig:forest_uav}
+			\end{center}
+		\end{column}
+	\end{columns}
+	
 \end{frame}

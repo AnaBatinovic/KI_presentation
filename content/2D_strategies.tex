@@ -56,6 +56,7 @@
 		\item[-] Robots as \textbf{sellers} and \textbf{buyers}
 %		\item[-] %After reaching a current goal point,
 		\item[-] A robot initiates an \textbf{auction}
+		\item[-] Each buyer $i$ submits a bid of:
 		\begin{equation}
 			B_{i} = P_{r} + \alpha(v_{i} - P_{r})
 		\end{equation}
@@ -92,6 +93,11 @@
 \begin{frame}
 	\frametitle{Distributed approach}
 	\begin{itemize}
+		\item[-] Assigning weights to frontier regarding to battery energy\footcite{Benkrid2017}
+		\item[-] A scene partitioning scheme\footcite{LopezPerez2018}
+	
+%		Lopez-Perez et al. \cite{LopezPerez2018} proposed a new method to explore unknown areas by using a scene partitioning scheme and assigning weights to the frontiers between explored and unknown areas. Authors presented a distributed algorithm, which reduces the number of communications between robots as well as the time needed to explore unknown regions and the distance traveled by each robot. Algorithm implemented by Benkrid and Achour \cite{Benkrid2017} also assigns weights to frontier cells, but, on the other hand, depends on the energy of the battery of each robot.
+%		
 		\item[-] A team of $n$ mobile robots  \(\text{$\mathcal {R}$}\) = $ \{ 1, 2,..., N\}$
 		\item[-] Every robot $i$ gets the list of frontier points  \(\text{$\mathcal {Y}$}\) = $ \{ 1, 2,..., M\}$
 	\end{itemize}
@@ -99,7 +105,7 @@
 	
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.9\textwidth]{figures/diagram_exploration}
+		\includegraphics[width=0.6\textwidth]{figures/diagram_exploration}
 	\end{figure}
 \end{frame}
 
@@ -108,10 +114,10 @@
 		\begin{columns}
 			\begin{column}{0.5\textwidth}
 				\begin{itemize}
-					\item[-] Information exchanged: robot positions and current robot target point. 
+					\item[-] Information exchanged: robot positions and current robot target point 
 					\item[-]  \textit{Weight function}: 
 					\begin{equation}
-					{W}_{ij}= {C_{ij}} - {U_{j}} + {F_{ij}}.
+					{W}_{ij}= {C_{ij}} - {U_{j}} + {F_{ij}}
 					\label{weight}
 					\end{equation}
 					\item[-] \textbf{Event-based} target point assignment process  
@@ -154,8 +160,12 @@
 	\frametitle{Distributed exploration strategy - simulation results}
 	\begin{figure}
 		\centering
-		\includegraphics[width=1\textwidth]{figures/results_final}
+		\includegraphics[width=0.9\textwidth]{figures/results_final}
 	\end{figure}
+	\begin{itemize}
+		\item[-] To appear in IFAC 2020 :)
+	\end{itemize}
+	
 \end{frame}
 
 
